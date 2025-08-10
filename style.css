@@ -7,3 +7,41 @@ margin:0px;
 box-sizing: border-box;
 font-family: "Roboto", sans-serif;
 }
+.navb{
+    background-color:black !important;
+}
+
+.wave-text span:hover {
+    display: inline-block;
+    animation: wave 2s ease-in-out;
+    text-decoration: underline;
+    text-decoration-color: #6E63C5;
+    text-decoration-thickness:5px;
+}
+.circle{
+   border-radius: 50px;
+    border: 3px solid #6E63C5;
+    height: 50px;
+    width: 50px;    
+}
+.whole:hover{
+    animation: wave 2s ease-in-out;
+}
+@media  screen and (min-width:320px)and (max-width: 480px) {
+.c{
+    display: block;
+    width: 100%;
+}
+}
+
+/* menubar animation */
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+ 
